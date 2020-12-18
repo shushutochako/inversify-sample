@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "mock": "ENABLE_MOCK=true npx ts-node ./src/main.ts",
+    "stub": "ENABLE_STUB=true npx ts-node ./src/main.ts",
     "start": "npx ts-node ./src/main.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

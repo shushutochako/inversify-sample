@@ -8,7 +8,7 @@ import {
 } from "./repository";
 
 const container = new Container();
-if (process.env.ENABLE_MOCK) {
+if (process.env.ENABLE_STUB) {
   container
     .bind<ArticleController>(DITypes.ArticleController)
     .to(ArticleController);
