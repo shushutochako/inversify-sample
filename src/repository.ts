@@ -9,7 +9,7 @@ export interface IArticleRepository {
 @injectable()
 export class ArticleRepository implements IArticleRepository {
   async getAll(): Promise<Article[]> {
-    // 本当はデータベースからAPI経由でデータ取得する
+    // 本当はデータベースとかAPI経由でデータ取得する
     throw new Error("働きたくないでござる");
   }
 }
